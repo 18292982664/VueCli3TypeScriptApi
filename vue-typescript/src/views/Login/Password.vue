@@ -18,12 +18,14 @@ import LoginHeader from "./LoginHeader.vue";
 export default class Password extends Vue {}
 </script>
 <style lang="scss">
-.title {
-    text-align: center;
-    font-size: 16px;
+.password {
     width: 500px;
     height: 400px;
     border: 1px solid wheat;
     margin: 0 auto;
+    .title {
+        text-align: center;
+        font-size: 16px;
+    }
 }
 </style>

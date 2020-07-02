@@ -6,10 +6,11 @@ Vue.use(VueRouter)
 
 const routes: Array<RouteConfig> = [
     {
-        path: '/login',
+        path: '/',
         name: 'login',
         component: () => import("@/views/Login/Login.vue")
-    }, {
+    }, 
+    {
         path: '/password',
         name: 'password',
         component: () => import("@/views/Login/Password.vue")
